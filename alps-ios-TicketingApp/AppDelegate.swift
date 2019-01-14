@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AppDelegate.setBadgeIndicator(0)
 
         // Basic setup
-        let config = MatchMoreConfig(apiKey: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpc3MiOiJhbHBzIiwic3ViIjoiZWVkYTU3MjctNTVjNy00NDYwLTg0MmUtNTI1ZTc5NDk2ZWVjIiwiYXVkIjpbIlB1YmxpYyJdLCJuYmYiOjE1MjIxNTI1NTEsImlhdCI6MTUyMjE1MjU1MSwianRpIjoiMSJ9.iXoO95et3cv3zsBL6yT6z0G76Lsr7iSebASj-DOEsNxwAgr7LHTE3pXULRSSgiMnkVclJB-ipOHVa9B3zLS1Sg", customLocationManager: locationManager) // create your own app at https://www.matchmore.io
+        let config = MatchMoreConfig(apiKey: "YOUR-API-KEY", customLocationManager: locationManager) // create your own app at https://www.matchmore.io
         Matchmore.configure(config)
 
         // Creates or loads cached main device
